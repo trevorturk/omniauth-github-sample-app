@@ -1,5 +1,3 @@
-# GITHUB_ID= GITHUB_SECRET= bundle exec shotgun
-
 fail 'Missing ENV: GITHUB_ID & GITHUB_SECRET' unless ENV['GITHUB_ID'] && ENV['GITHUB_SECRET']
 
 require 'bundler/setup'

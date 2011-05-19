@@ -1,0 +1,5 @@
+Bare minimum example app for using omniauth with github
+
+Use:
+
+GITHUB_ID= GITHUB_SECRET= bundle exec shotgun
