@@ -1,53 +1,54 @@
 GIT
-  remote: git://github.com/intridea/omniauth.git
-  revision: af7cc9217b95db7dcd93374bdbe613800b510426
-  specs:
-    oa-basic (0.2.6)
-      oa-core (= 0.2.6)
-      rest-client (~> 1.6.0)
-    oa-core (0.2.6)
-    oa-enterprise (0.2.6)
-      addressable (= 2.2.4)
-      net-ldap (~> 0.2.2)
-      nokogiri (~> 1.4.2)
-      oa-core (= 0.2.6)
-      pyu-ruby-sasl (~> 0.0.3.1)
-      rubyntlm (~> 0.1.1)
-    oa-more (0.2.6)
-      multi_json (~> 1.0.0)
-      oa-core (= 0.2.6)
-      rest-client (~> 1.6.0)
-    oa-oauth (0.2.6)
-      faraday (~> 0.6.1)
-      multi_json (~> 1.0.0)
-      multi_xml (~> 0.2.2)
-      oa-core (= 0.2.6)
-      oauth (~> 0.4.0)
-      oauth2 (~> 0.4.1)
-    oa-openid (0.2.6)
-      oa-core (= 0.2.6)
-      rack-openid (~> 1.3.1)
-      ruby-openid-apps-discovery (~> 1.2.0)
-    omniauth (0.2.6)
-      oa-basic (= 0.2.6)
-      oa-core (= 0.2.6)
-      oa-enterprise (= 0.2.6)
-      oa-more (= 0.2.6)
-      oa-oauth (= 0.2.6)
-      oa-openid (= 0.2.6)
-
-GIT
-  remote: https://github.com/intridea/oauth2.git
+  remote: git://github.com/intridea/oauth2.git
   revision: c6a7fc54dc2d06fe291f15a8415fedb1c3137348
   specs:
     oauth2 (0.4.1)
       faraday (>= 0.6.1, < 0.8)
       multi_json (~> 1.0.0)
 
+GIT
+  remote: git://github.com/trevorturk/omniauth.git
+  revision: 012ea6c9eca8b7fc122a654c4abbaecdc394d958
+  branch: integration
+  specs:
+    oa-basic (0.2.5)
+      oa-core (= 0.2.5)
+      rest-client (~> 1.6.0)
+    oa-core (0.2.5)
+    oa-enterprise (0.2.5)
+      addressable (~> 2.2.6)
+      net-ldap (~> 0.2.2)
+      nokogiri (~> 1.4.2)
+      oa-core (= 0.2.5)
+      pyu-ruby-sasl (~> 0.0.3.1)
+      rubyntlm (~> 0.1.1)
+    oa-more (0.2.5)
+      multi_json (~> 1.0.0)
+      oa-core (= 0.2.5)
+      rest-client (~> 1.6.0)
+    oa-oauth (0.2.5)
+      faraday (~> 0.6.1)
+      multi_json (~> 1.0.0)
+      multi_xml (~> 0.2.2)
+      oa-core (= 0.2.5)
+      oauth (~> 0.4.0)
+      oauth2 (~> 0.4.1)
+    oa-openid (0.2.5)
+      oa-core (= 0.2.5)
+      rack-openid (~> 1.3.1)
+      ruby-openid-apps-discovery (~> 1.2.0)
+    omniauth (0.2.5)
+      oa-basic (= 0.2.5)
+      oa-core (= 0.2.5)
+      oa-enterprise (= 0.2.5)
+      oa-more (= 0.2.5)
+      oa-oauth (= 0.2.5)
+      oa-openid (= 0.2.5)
+
 GEM
   remote: http://rubygems.org/
   specs:
-    addressable (2.2.4)
+    addressable (2.2.6)
     faraday (0.6.1)
       addressable (~> 2.2.4)
       multipart-post (~> 1.1.0)
